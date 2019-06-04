@@ -1,0 +1,36 @@
+{
+  "name": "snappy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.12.1",
+    "react": "16.6.1",
+    "react-native": "0.57.5",
+    "react-native-floating-label-text-input": "^0.1.5",
+    "react-native-floating-labels": "^1.1.9",
+    "react-native-image-picker": "^0.27.1",
+    "react-native-table-component": "^1.2.0",
+    "react-native-text-input-mask": "^1.0.1",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/fonts"
+    ]
+  }
+}
